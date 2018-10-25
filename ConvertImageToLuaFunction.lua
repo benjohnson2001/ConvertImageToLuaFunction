@@ -79,31 +79,20 @@ end
 -- print source code
 
 local output = {}
-table.insert(output, "function drawImage()\n\n")
+table.insert(output, "function drawImage()\n")
+
+table.insert(output, "    local xOffset = gfx.x")
+table.insert(output, "    local yOffset = gfx.y")
 
 for i = 1, #pixels do
 
   local pixel = pixels[i]
 
-	table.insert(output, "    gfx.x = " .. pixel.x .. "\n")
-	table.insert(output, "    gfx.y = " .. pixel.y .. "\n")
-	table.insert(output, "    gfx.setpixel(" .. pixel.r .. ", " .. pixel.g .. ", " .. pixel.b .. ")\n")
+	table.insert(output, "    gfx.x = " .. pixel.x .. " + xOffset")
+	table.insert(output, "    gfx.y = " .. pixel.y .. " + yOffset")
+	table.insert(output, "    gfx.setpixel(" .. pixel.r .. ", " .. pixel.g .. ", " .. pixel.b .. ")")
 end
 
 table.insert(output, "end")
 
-local function splitByChunk(text, chunkSize)
-    local s = {}
-    for i=1, #text, chunkSize do
-        s[#s+1] = text:sub(i,i+chunkSize - 1)
-    end
-    return s
-end
-
-local chunkSize = 7453
-local strings = splitByChunk(table.concat(output, ""), chunkSize)
-for i, string in ipairs(strings) do
-   print("\n\n" .. i .. "\n----\n\n")
-   print(string)
-end
-
+reaper.CF_SetClipboard(table.concat(output, "\n"))
