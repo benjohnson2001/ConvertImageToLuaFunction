@@ -3,7 +3,7 @@
  * Author: pandabot
  * License: MIT
  * Version: 1.0
- * Donate: paypal.me/benjohnson2001
+ * Donate: https://paypal.me/benjohnson2001
  * About:
   ### ConvertImageToLuaFunction
   #### What is it?
