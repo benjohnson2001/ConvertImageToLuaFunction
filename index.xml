@@ -1,12 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="ConvertImageToLuaFunction" commit="6b8d1514ab79992d1be8b760187632806f0ff59b">
+<index version="1" name="ConvertImageToLuaFunction" commit="678c7f727da0b7c5bb1fc22447854b53b7da4c94">
   <category name="src">
     <reapack name="ConvertImageToLuaFunction.lua" type="script" desc="Convert Image To Lua Function">
       <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard \ql \f0 \sa180 \li0 \fi0 Provides a variety of music theory tools:\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \f1 Scales\line
+- Search for scales with particular notes\line
+\line
+Chords\line
+- Provides a list of legal chords for a given key/scale\line
+\line
+Harmony\line
+- Harmonize any scale automatically, with the option to\line
+  customize results\par}
+}
+]]></description>
         <link rel="donation">https://paypal.me/benjohnson2001</link>
       </metadata>
       <version name="1.0" author="pandabot" time="2018-10-29T13:32:49Z">
-        <source main="main">https://github.com/benjohnson2001/ConvertImageToLuaFunction/raw/6b8d1514ab79992d1be8b760187632806f0ff59b/src/ConvertImageToLuaFunction.lua</source>
+        <source main="main">https://github.com/benjohnson2001/ConvertImageToLuaFunction/raw/678c7f727da0b7c5bb1fc22447854b53b7da4c94/src/ConvertImageToLuaFunction.lua</source>
       </version>
     </reapack>
   </category>
