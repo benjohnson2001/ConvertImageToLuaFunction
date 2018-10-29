@@ -1,12 +1,22 @@
-function clearConsoleWindow()
-  reaper.ShowConsoleMsg("")
-end
+--[[
+ * Description: Convert Image To Lua Function
+ * Author: pandabot
+ * License: MIT
+ * Version: 1.0
+ * Donate: paypal.me/benjohnson2001
+ * About:
+  ### ConvertImageToLuaFunction
+  #### What is it?
+	Reaper tool that converts image to Lua source code for drawing images pixel by pixel
 
-function print(arg)
-  reaper.ShowConsoleMsg(tostring(arg))
-end
+  #### How do I use it?
 
-clearConsoleWindow()
+	Note: requires SWS extensions
+
+	1. select png image
+	2. source code is put into system clipboard
+
+--]]
 
 
 -- get image path
