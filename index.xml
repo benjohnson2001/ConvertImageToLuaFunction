@@ -1,12 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="ConvertImageToLuaFunction" commit="2a331dde857d84251edca3c92a032746d5005e3d">
+<index version="1" name="ConvertImageToLuaFunction" commit="86c0924648adb0c24fb76417518b3b7242b565db">
   <category name="src">
     <reapack name="ConvertImageToLuaFunction.lua" type="script" desc="Convert Image To Lua Function">
       <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard \ql \f0 \sa180 \li0 \fi0 Reaper tool that converts image to Lua source code for drawing images pixel by pixel\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Note: requires SWS extensions\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 1.\tx360\tab select png image\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 2.\tx360\tab source code is put into system clipboard\sa180\par}
+}
+]]></description>
         <link rel="donation">https://paypal.me/benjohnson2001</link>
       </metadata>
       <version name="1.0" author="pandabot" time="2018-10-29T13:32:49Z">
-        <source main="main">https://github.com/benjohnson2001/ConvertImageToLuaFunction/raw/2a331dde857d84251edca3c92a032746d5005e3d/src/ConvertImageToLuaFunction.lua</source>
+        <source main="main">https://github.com/benjohnson2001/ConvertImageToLuaFunction/raw/86c0924648adb0c24fb76417518b3b7242b565db/src/ConvertImageToLuaFunction.lua</source>
       </version>
     </reapack>
   </category>
