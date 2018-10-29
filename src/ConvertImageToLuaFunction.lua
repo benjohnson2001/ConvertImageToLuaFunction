@@ -1,21 +1,16 @@
 --[[
- Description: Convert Image To Lua Function
- Author: pandabot
- License: MIT
- Version: 1.0
- Donation: https://paypal.me/benjohnson2001
+Description: Convert Image To Lua Function
+Author: pandabot
+License: MIT
+Version: 1.0
+Donation: https://paypal.me/benjohnson2001
 About: 
-	Provides a variety of music theory tools:
-	
-		Scales
-		- Search for scales with particular notes
-		
-		Chords
-		- Provides a list of legal chords for a given key/scale
-		
-		Harmony
-		- Harmonize any scale automatically, with the option to
-		  customize results
+Reaper tool that converts image to Lua source code for drawing images pixel by pixel
+
+Note: requires SWS extensions
+
+1. select png image
+2. source code is put into system clipboard
 --]]
 
 
