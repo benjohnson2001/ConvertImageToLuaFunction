@@ -3,14 +3,14 @@
  Author: pandabot
  License: MIT
  Version: 1.0
- Donate: https://paypal.me/benjohnson2001
+ Donation: https://paypal.me/benjohnson2001
  About:
-	Reaper tool that converts image to Lua source code for drawing images pixel by pixel
+				Reaper tool that converts image to Lua source code for drawing images pixel by pixel
 
-	Note: requires SWS extensions
+				Note: requires SWS extensions
 
-	1. select png image
-	2. source code is put into system clipboard
+				1. select png image
+				2. source code is put into system clipboard
 --]]
 
 
