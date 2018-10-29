@@ -1,21 +1,16 @@
 --[[
- * Description: Convert Image To Lua Function
- * Author: pandabot
- * License: MIT
- * Version: 1.0
- * Donate: https://paypal.me/benjohnson2001
- * About:
-  ### ConvertImageToLuaFunction
-  #### What is it?
+ Description: Convert Image To Lua Function
+ Author: pandabot
+ License: MIT
+ Version: 1.0
+ Donate: https://paypal.me/benjohnson2001
+ About:
 	Reaper tool that converts image to Lua source code for drawing images pixel by pixel
-
-  #### How do I use it?
 
 	Note: requires SWS extensions
 
 	1. select png image
 	2. source code is put into system clipboard
-
 --]]
 
 
