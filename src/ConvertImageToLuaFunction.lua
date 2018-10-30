@@ -4,6 +4,7 @@ Author: pandabot
 License: MIT
 Version: 1.0
 Donate: https://paypal.me/benjohnson2001
+Link: https://forum.cockos.com/member.php?u=127396
 About: 
     Reaper tool that converts image to Lua source code for drawing images pixel by pixel
 
